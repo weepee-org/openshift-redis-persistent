@@ -7,7 +7,7 @@ Template for running a redis persistent container.
 You need oc (cli tool) locally installed
 
 ```sh
-> oc new-app https://github.com/ure/openshift-redis-presistent.git --name=redis
+> oc new-app https://github.com/weepee-org/openshift-redis-persistent.git --name=redis
 ```
 
 # Scaling
@@ -15,6 +15,6 @@ You need oc (cli tool) locally installed
 Create additional redis services with another naming scheme like
 
 ```sh
-> oc new-app https://github.com/ure/openshift-redis-presistent.git --name=redis0
-> oc new-app https://github.com/ure/openshift-redis-presistent.git --name=redis1
+> oc new-app https://github.com/weepee-org/openshift-redis-persistent.git --name=redis0
+> oc new-app https://github.com/weepee-org/openshift-redis-persistent.git --name=redis1
 ```
